@@ -6,7 +6,7 @@ on:
       - 'v*'
 
 env:
-  BINARY_NAME: ferload-client
+  BINARY_NAME: go-cli
   BUILD_FLAGS: -ldflags="-s -w"
   COMPRESS_FLAGS: -9
 
