@@ -13,3 +13,27 @@
 
 # Dependency directories (remove the comment below to include it)
 # vendor/
+
+# Object files
+*.o
+*.a
+
+# Directory for Go development
+.idea
+.vscode
+
+# Cgo files
+_cgo_defun.c
+_cgo_gotypes.go
+_cgo_export.*
+_testmain.go
+
+# Ignore all files in the vendor folder.
+vendor/
+
+# Ignore all files in the .git folder.
+.git/
+
+# go build outputs
+go-cli
+main
